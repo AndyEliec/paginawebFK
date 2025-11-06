@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cg fill='none' stroke='%23a10678' stroke-width='4'%3E%3Ccircle cx='50' cy='50' r='10'/%3E%3Ccircle cx='50' cy='50' r='18'/%3E%3Ccircle cx='50' cy='50' r='26'/%3E%3Ccircle cx='50' cy='50' r='34'/%3E%3Ccircle cx='50' cy='50' r='42'/%3E%3C/g%3E%3C/svg%3E" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FillKolor - Tintorería Industrial</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#6f1457',
+              'brand-secondary': '#a3528d',
+              'brand-accent': '#a10678',
+              'brand-accent-hover': '#7d0954',
+              'brand-light': '#f9ebf7',
+              'brand-dark': '#4e1337',
+            },
+            fontFamily: {
+              sans: ['"Helvetica Neue"', 'Arial', 'sans-serif'],
+              serif: ['"Georgia"', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-brand-light">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
